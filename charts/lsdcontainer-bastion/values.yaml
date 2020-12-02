@@ -88,7 +88,7 @@ haproxy:
     repository: "haproxy"
     tag: "alpine"
   # Below is a standard haproxy.conf configuration. Modify appropriately
-  config: |-
+  config: |
     global
       daemon
     defaults
